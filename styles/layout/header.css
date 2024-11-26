@@ -1,0 +1,119 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav h1 {
+  font-size: 3em;
+}
+.main-nav__burger-menu {
+  position: relative;
+}
+
+.main-nav__burger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.main-nav__burger-line {
+  display: block;
+  width: 110%;
+  height: 3px;
+  background-color: #333;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.main-nav__burger-nav {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 5;
+}
+
+.main-nav__burger-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.main-nav__burger-nav li {
+  margin: 0;
+}
+
+.main-nav__burger-nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.main-nav__burger-nav a:hover {
+  background-color: #f0f0f0;
+}
+
+.burger-menu {
+  position: relative;
+}
+.burger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.burger-line {
+  display: block;
+  width: 120%;
+  height: 3px;
+  background-color: #333;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burger-nav {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 5;
+}
+
+.burger-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.burger-nav li {
+  margin: 0;
+}
+
+.burger-nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.burger-nav a:hover {
+  background-color: #f0f0f0;
+}

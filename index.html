@@ -1,9 +1,114 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="styles/pages/newspage.css" />
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Newspage</title>
   </head>
-  <body></body>
+  <body>
+    <div class="page-wrapper-padding">
+      <nav class="header-nav">
+        <h1>W.</h1>
+        <div class="main-nav__burger-menu">
+          <div class="main-nav__burger-button">
+            <button class="burger-button" aria-label="Toggle navigation">
+              <span class="main-nav__burger-line"></span>
+              <span class="main-nav__burger-line"></span>
+              <span class="main-nav__burger-line"></span>
+            </button>
+            <nav class="main-nav__burger-nav">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-content__grid, main-content__grid-margin">
+        <div class="grid-card">
+          <img
+            src="assets/images/image-web-3-mobile.jpg"
+            alt="mobile web image"
+            class="main-content__start-img"
+          />
+        </div>
+        <div class="grid-card">
+          <h2 class="highlight-text">The Bright Future of Web 3.0?</h2>
+        </div>
+        <div class="grid-card-2">
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <button class="grid-card-2-button">READ MORE</button>
+        </div>
+        <div class="grid-card">
+          <div class="new-informations">
+            <h2>New</h2>
+            <h3>Hydrogen VS Elevtric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <p>________________________________________</p>
+            <h3>The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <p>________________________________________</p>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what means.
+            </p>
+          </div>
+
+          <div class="grid-card">
+            <div class="grid-card__item">
+              <div class="grid-card__item-img">
+                <img src="assets/images/image-retro-pcs.jpg" alt="Retro PC" />
+              </div>
+              <h4 class="grid-card__item-title">01</h4>
+              <h3 class="grid-card__item-description">Reviving Retro PCs</h3>
+              <p class="grid-card__item-text">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+            <div class="grid-card__item">
+              <div class="grid-card__item-img">
+                <img
+                  src="assets/images/image-top-laptops.jpg"
+                  alt="Top Laptops"
+                />
+              </div>
+              <h4 class="grid-card__item-title">02</h4>
+              <h3 class="grid-card__item-description">
+                Top 10 Laptops of 2022
+              </h3>
+              <p class="grid-card__item-text">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+            <div class="grid-card__item">
+              <div class="grid-card__item-img">
+                <img
+                  src="assets/images/image-gaming-growth.jpg"
+                  alt="Gaming Growth"
+                />
+              </div>
+              <h4 class="grid-card__item-title">03</h4>
+              <h3 class="grid-card__item-description">The Growth of Gaming</h3>
+              <p class="grid-card__item-text">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

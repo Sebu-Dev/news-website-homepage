@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "newsfont";
+  src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "newsfontBold";
+  src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "newsfontExtraBold";
+  src: url("./assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "newsfontRegular";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

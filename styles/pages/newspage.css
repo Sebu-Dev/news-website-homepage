@@ -1,0 +1,30 @@
+/* Base Styles */
+@import "../base/reset.css";
+@import "../base/fonts.css";
+@import "../base/global.css";
+
+/* Layout Styles */
+@import "../layout/container.css";
+@import "../layout/header.css";
+
+/* Component Styles */
+@import url("../components/component-articel.css");
+@import url("../components/component-grid.css");
+@import url("../components/component-news.css");
+
+.page-wrapper-padding {
+  padding: 5%;
+}
+
+.main-content__grid {
+  display: grid;
+  font-family: "newsfont", Arial, sans-serif;
+}
+
+.main-content__grid-margin * {
+  margin-top: 5%;
+}
+
+.main-content__start-img {
+  width: 100%;
+}

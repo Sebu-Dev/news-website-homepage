@@ -1,0 +1,15 @@
+.new-informations h2 {
+  color: #efa658;
+  font-size: 2em;
+  line-height: 1;
+}
+.new-informations {
+  padding: 15px;
+  background-color: #00001a;
+  color: #fefdff;
+}
+.highlight-text {
+  font-family: "newsfontExtraBold", Arial, sans-serif;
+  font-size: 3em;
+  line-height: 1;
+}
