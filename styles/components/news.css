@@ -1,0 +1,15 @@
+.new-informations-highlight-text {
+  color: var(--off-white);
+  font-weight: var(--font-weight-extra-bold);
+  line-height: 1;
+}
+.new-informations {
+  padding: 15px;
+  background-color: #00001a;
+  color: var(--grayish-blue);
+}
+
+.new-informations-highlight-text:hover {
+  color: var(--soft-orange);
+  cursor: pointer;
+}

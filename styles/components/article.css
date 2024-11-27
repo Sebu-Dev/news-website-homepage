@@ -1,0 +1,21 @@
+.article-card-text-color {
+  color: var(--dark-grayish-blue);
+}
+
+.article-card-header {
+  font-weight: var(--font-weight-extra-bold);
+}
+
+.article-card-button {
+  width: 50%;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: var(--soft-red);
+  letter-spacing: 4px;
+  font-weight: var(--font-weight-extra-bold);
+}
+.article-card-button:hover {
+  background-color: var(--dark-grayish-blue);
+  cursor: pointer;
+}

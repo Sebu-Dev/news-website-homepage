@@ -1,0 +1,18 @@
+body {
+  background-color: var(--off-white);
+  color: var(--very-dark-blue);
+}
+body p {
+  font-weight: var(--font-weight-regular);
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: var(--font-weight-extra-bold);
+  font-size: 3rem;
+  line-height: 0.9;
+}
+
+h2 {
+  font-weight: var(--font-weight-extra-bold);
+}
